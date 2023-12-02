@@ -16,7 +16,6 @@ def part2():
 def line_number(line: str, part=1) -> int:
     """Returns the number made from the first
     and last digit in each line of s"""
-    line_old = line
     if part == 2:
         replacements = {
             "one": "1",
